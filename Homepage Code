@@ -53,6 +53,14 @@
         <section class="profile-carousel">
             <!-- Carousel goes here -->
         </section>
+        <section class="form_submit_name">
+            <center>
+                <div>
+                    <iframe src="./form.html" height="400" width="900" title="Form" name="pform"></iframe>
+                    <!--submit name for profiling-->
+                </div>
+            </center>
+        </section>
     </main>
 
     <footer class="container-fluid">
