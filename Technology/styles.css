@@ -1,0 +1,188 @@
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000428, #004683);
+}
+
+h1 {
+    font-size: x-large;
+    color:#fff;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+/* Columms */
+.container {
+    margin-bottom: 100px;
+}
+
+.container .row .col-lg-3 {
+    display: flex;
+    padding-top: 100px;
+}
+
+.Ada, .Katherine, .Carol, .Susan {
+    flex-direction: column;
+    align-items: center;
+}
+
+info.container { 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+
+/* Cards */
+.card {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 280px;
+    max-height: 340px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.card .card-image img {
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.card .card-content {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    min-height: 120px;
+    width: 100%;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card .card-content h4,
+.card .card-content h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    transition: 0.8s;
+    font-weight: 500;
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+.card .card-content h5 {
+    transition: 0.5s;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.card-bio {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    cursor: default;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border-color: #fff;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.5);
+}
+
+p {
+    font-family:'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+
+
+/* Bio Buttons */
+.button {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 12px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.tech {
+    background-color: #1170c4;
+}
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #2c974b;
+  color: white;
+}
+
+.button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
