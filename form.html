@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Project - Women in History</title>
+        </head>
+        <body>
+            <main>
+                <form action="./FormSubmitMsg.html" target="pform">
+                <h3>Submit a name for profiling</h3>
+                <div class="flex_container">
+                    <div>
+                        <label for="profile_name">Full name of person to be profiled:</label>
+                            <div id="profile_name">
+                                <input type="text" id="name" name="name" size="40" required>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="expertise_area">Area of expertise:</label>
+                            <div id="expertise_area">
+                                <input type="radio" id="medicine" name="expertise" value="medicine">
+                                    <label for="medicine">Medicine</label>
+                                <input type="radio" id="arts" name="expertise" value="arts">
+                                    <label for="arts">Arts</label>
+                                <input type="radio" id="science" name="expertise" value="science">
+                                    <label for="science">Science</label>
+                                <input type="radio" id="technology" name="expertise" value="technology">
+                                    <label for="technology">Technology</label>
+                            </div><br>
+                    </div>
+                    <div>
+                        <label for="highlights">Their main highlights:</label>
+                            <div id="highlights">
+                                <textarea id="accomplishments" rows="5" cols="50" required></textarea>
+                                <label for="accomplishments"></label>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="reasons">Tell us why you want this person to be added to the showcase:</label>
+                            <div id="reasons">
+                                <textarea id="your_reasons" rows="5" cols="50" required></textarea>
+                                <label for="your_reasons"></label><br><br>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="yname">Your name:</label>
+                            <div id="yname">
+                                <input type="text" id="yname" name="yname" size="50" required autocomplete="on"><br><br>
+                            </div>
+                        <label for="email">Your email:</label>
+                            <div id="email">
+                                <input type="email" id="email" name="email" size="50" required autocomplete="on"><br><br>
+                            </div>
+                        <input type="submit">
+                </div>
+                </form>
+            </main>
+        </body>
+    </html>

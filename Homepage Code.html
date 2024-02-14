@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Female Figures</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="home-background">
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"a>
+                <img src="logo.png" alt="Logo" style="height: 250px;"> <!-- Adjust height as needed -->
+            </a>
+            <div class="collapse-navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" w>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Homepage Code.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Technology Bio Page.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Art Bio Page.html">Art</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Science Bio Page.html">Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Medicine Bio Page.html">Medicine</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <input type="text" placeholder="Search..">
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container-fluid">
+        <section class="hero-section">
+            <div class="hero-image-background">
+                <img src="./img/heroimg.JPG" alt="image of a number of women that have made history" height="300px" class="heroimg">
+                <div class="hero-text">
+                    <h1 class="quote">'Well-behaved women seldom make history' - Laurel Thatcher Ulrich</h1>
+                    <p class="intro">This website has been created to showcase important women who made history. Each woman on this website has a biography telling you about why she should be remembered as an important part of history in either the field of technology, art, science or medicine. Select a profile below to read a biography!</p>
+                </div>
+            </div> 
+        </section>
+
+        <section class="profile-carousel">
+            <!-- Carousel goes here -->
+            <section class="profile-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <!-- Repeat this div for each womans profile with the  content -->
+                    <div class="carousel-item active">
+                      <img src="./img/Marie_Curie.png" class="d-block w-100" alt="headshot of Marie Curie">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Marie Curie</h5>
+                        <p>French Physicist</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Frida_Kahlo_%28self_portrait%29.jpg" class="d-block w-100" alt="headshot of Frida Kahlo">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Frida Kahlo</h5>
+                          <p>Surrealist/Magical Realist</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="./img/Katherine_Johnson.png" class="d-block w-100" alt="headshot of Katherine Johnson">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Katherine Johnson</h5>
+                          <p>NASA Mathematician</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="#" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Name</h5>
+                          <p>Title</p>
+                        </div>
+                      </div>
+                    <!-- Additional carousel-item divs go here -->
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </section>
+        </section>
+        
+        <section class="form_submit_name">
+            <center>
+                    <iframe src="./form.html" width="90%" height="350" title="Form" id="pform" name="pform"  class="container-fluid"></iframe>
+                    <!--submit name for profiling-->
+            </center>
+        </section>
+    </main>
+
+    <footer class="container-fluid">
+        <!-- Footer content goes here -->
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+    
+      
+</body>
+</html>
