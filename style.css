@@ -72,6 +72,10 @@ header{
     color: white;
 }
 
+.form_submit_name{
+ margin-top: 5%;
+}
+
 .flex_container {
   display: flex;
   flex-wrap: wrap;
@@ -88,6 +92,10 @@ form {
   font-size: x-small;
  }
  
+.profile-carousel{
+  margin-top: 1%
+}
+
  /* Importing fonts from Google */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -97,7 +105,7 @@ body {
 
 
 .home-background {
-  background: linear-gradient(to bottom, #2f2f2f, #bbbbbb);
+  background: linear-gradient(to bottom, #252525, #adadad);
 }
 
 .tech-background {
